@@ -2,14 +2,19 @@
   margin-top: 0;
 }
 
-.Hero-img-container {
+.Carousel-container {
   margin: 0 100px;
   width: "700px";
-  height: "400px";
-  background-image: url("/src/Resources/hero-main-img.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  height: "300px";
+}
+
+.Carousel-container img {
+  overflow: hidden;
+}
+
+.carousel {
+  max-width: 900px;
+  max-height: 500px;
+  margin: auto;
 }
 /*# sourceMappingURL=HeroSection.css.map */
