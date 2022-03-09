@@ -1,10 +1,12 @@
 import React from 'react'
 import HeroSection from './HeroSection'
+import "../Styles/Body.css"
+
 function Body() {
   return (
-      <React.Fragment>
+      <div className='Body'>
        <HeroSection/>
-    </React.Fragment>
+       </div>
   )
 }
 

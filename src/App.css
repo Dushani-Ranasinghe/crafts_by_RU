@@ -1,4 +1,11 @@
 .App {
   text-align: center;
+ 
+}
+.App-container{
+  background-image: url("./Resources/Ellipse.png");
+  background-repeat: no-repeat;
+  background-position: right 100%;
+  background-size: 17% 75%;
 }
 
