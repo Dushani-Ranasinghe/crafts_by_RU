@@ -1,20 +1,58 @@
 import React from 'react'
-import prevBtn from "../Resources/prev.png"
-import nxtBtn from "../Resources/right.png"
 import "../Styles/HeroSection.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Carousel} from "react-bootstrap"
+
+//images
+import MainImg from "../Resources/hero-main-img.jpg"
+import first from "../Resources/1.jpg"
+import second from "../Resources/2.jpg"
+import third from "../Resources/3.jpg"
+import fourth from "../Resources/4.jpg"
+import fifth from "../Resources/5.jpg"
+import sixth from "../Resources/6.jpeg"
 
 function HeroSection() {
   return (
     <div className='HeroSection'>
-        <div className='Hero-img-container'>
-        <button>
-            <img src={prevBtn} alt="Previous"/>
-         </button>
-            <h1>CRAFTS <br/> THAT <br/>SPEAKS<br/> ITS <br/>STORY</h1>
-            <button> <img src={nxtBtn} alt="Next"/></button>
-           
-     
-        </div>
+       <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={MainImg}
+      alt="First slide"
+      width="600px"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="holder.js/800x400?text=Second slide&bg=282c34"
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="holder.js/800x400?text=Third slide&bg=20232a"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
     </div>
   )
 }
