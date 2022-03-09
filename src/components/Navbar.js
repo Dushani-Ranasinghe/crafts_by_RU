@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className='NavBar'>
       <div className='logo-container'>
-        <img src={NavLogo} alt="Logo" width="362px" height="75px"/>
+        <img src={NavLogo} alt="Logo" width="330px" height="70px"/>
         <h1>CRAFTING THE MOMENTS</h1>
         </div>
       <div className='Nav-Links'>
@@ -15,8 +15,6 @@ function Navbar() {
          <a href='/about'>ABOUT</a>
          <a href='/contact'>CONTACT</a>
       </div>
-      
-      Navbar
     </div>
   )
 }

@@ -9,8 +9,9 @@
 
 .logo-container > h1 {
   font-family: "Julius Sans One", sans-serif;
-  font-size: 13px;
+  font-size: 10px;
   letter-spacing: 0.2em;
+  padding-bottom: 20px;
 }
 
 .Nav-Links a {
@@ -18,5 +19,8 @@
   text-decoration: none;
   margin: 5px;
   font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.2em;
 }
 /*# sourceMappingURL=Navbar.css.map */

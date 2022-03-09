@@ -9,13 +9,17 @@
 }
 .logo-container >h1{
 font-family: $logo-font;
-font-size: 13px;
+font-size: 10px;
 letter-spacing: 0.2em;
+padding-bottom: 20px;
 }
 
 .Nav-Links a{
  color: $navLink-black;
  text-decoration: none;
  margin: 5px;
- font-family: $navLink-font;
+font-family: $navLink-font;
+font-weight: bold;
+font-size: 15px;
+letter-spacing: 0.2em;
 }
