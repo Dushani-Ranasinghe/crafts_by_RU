@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Julius+Sans+One&family=Poppins:wght@100;300;400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.NavBar {
+  width: 100%;
+  height: 300px;
+  background-color: #FFFFFF;
+  padding-top: 30px;
+}
+
+.logo-container > h1 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+}
+
+.Nav-Links a {
+  color: #232323;
+  text-decoration: none;
+  margin: 5px;
+}
+/*# sourceMappingURL=Navbar.css.map */
