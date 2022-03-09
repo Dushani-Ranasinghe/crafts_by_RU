@@ -1,9 +1,9 @@
 import React from 'react'
-
+import HeroSection from './HeroSection'
 function Body() {
   return (
       <React.Fragment>
-    body
+       <HeroSection/>
     </React.Fragment>
   )
 }

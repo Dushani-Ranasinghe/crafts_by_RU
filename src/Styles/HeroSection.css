@@ -1,0 +1,15 @@
+.HeroSection {
+  margin-top: 0;
+}
+
+.Hero-img-container {
+  margin: 0 100px;
+  width: "700px";
+  height: "400px";
+  background-image: url("/src/Resources/hero-main-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/*# sourceMappingURL=HeroSection.css.map */
