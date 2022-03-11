@@ -7,7 +7,7 @@ function Navbar() {
     <div className='NavBar'>
       <div className='logo-container'>
         <img src={NavLogo} alt="Logo" width="330px" height="70px"/>
-        <h1>CRAFTING THE MOMENTS</h1>
+        <h1 className='logo-header'>CRAFTING THE MOMENTS</h1>
         </div>
       <div className='Nav-Links'>
          <a href='/home'>HOME</a>
