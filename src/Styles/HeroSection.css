@@ -3,9 +3,15 @@
 }
 
 .Carousel-container {
-  margin: 0 100px;
-  width: "700px";
-  height: "300px";
+  margin: auto;
+  width: 800px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Carousel-container img {
@@ -13,8 +19,7 @@
 }
 
 .carousel {
-  max-width: 900px;
-  max-height: 500px;
+  max-width: 1000px;
   margin: auto;
 }
 /*# sourceMappingURL=HeroSection.css.map */

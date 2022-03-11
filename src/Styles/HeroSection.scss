@@ -3,9 +3,11 @@
     margin-top: 0;
 }
 .Carousel-container{
-    margin: 0 100px ;
-    width:700px;
-     height:300px;
+    margin: auto ;
+    width:800px;
+    height:500px;
+    display: flex;
+  justify-content: center;
 
 }
 
@@ -15,9 +17,5 @@
 .carousel {
     max-width:1000px;
     margin: auto;
-    height: 300px;
   }
-.carousel-inner{
-    height: 300px;
-}
 

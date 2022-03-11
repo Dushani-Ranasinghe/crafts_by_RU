@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../Styles/SubNavbar.css"
 function SubNavbar() {
   return (
     <div className='SubNavbar'>
