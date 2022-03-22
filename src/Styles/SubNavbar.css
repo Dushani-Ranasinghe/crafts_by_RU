@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Julius+Sans+One&family=Poppins:wght@100;300;400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Julius+Sans+One&family=Overpass:wght@100;200;300;400;500&family=Poppins:wght@100;300;400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Julius+Sans+One&family=Overpass:wght@100;200;300;400;500&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 .SubNavbar {
-  margin: 20px 0;
+  width: 765px;
+  margin: auto;
+  padding: 10px 0;
 }
 
 .Sub-Nav-Links a {
   color: #5D5E60;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 8px;
   font-family: "Overpass", sans-serif;
   letter-spacing: 0.2em;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 11px;
 }
 /*# sourceMappingURL=SubNavbar.css.map */

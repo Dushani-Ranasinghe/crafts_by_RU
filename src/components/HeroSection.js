@@ -4,20 +4,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Carousel} from "react-bootstrap"
 
 //images
-import MainImg from "../Resources/hero-main-img.jpg"
-import first from "../Resources/1.jpg"
-import second from "../Resources/2.jpg"
-import third from "../Resources/3.jpg"
-import fourth from "../Resources/4.jpg"
-import fifth from "../Resources/5.jpg"
-import sixth from "../Resources/6.jpeg"
+import MainImg from "../Resources/hero-main-img.png"
+import first from "../Resources/2.png"
+import second from "../Resources/3.png"
+import third from "../Resources/4.png"
+import fourth from "../Resources/5.png"
+import fifth from "../Resources/6.png"
+import sixth from "../Resources/7.png"
 
 function HeroSection() {
   return (
     <div className='HeroSection'>
         <div className='Carousel-container'>
 
-<Carousel>
+<Carousel fade>
 
   <Carousel.Item>
     <img

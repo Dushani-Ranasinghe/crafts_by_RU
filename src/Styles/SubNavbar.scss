@@ -2,14 +2,18 @@
 
 
 .SubNavbar{
-    margin: 20px 0;
+    width: 765px;
+    margin: auto;
+    padding: 10px 0;
+
 }
 .Sub-Nav-Links a{
     color: $subNav-graycolor;
     text-decoration: none;
-    margin:0 10px;
+    margin:0 8px;
    font-family: $navLink-font;
    letter-spacing: 0.2em; 
    font-weight: 400;
-   font-size: 12px;
+   font-size: 11px;
+
    }
