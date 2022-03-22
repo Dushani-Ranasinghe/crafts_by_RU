@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Julius+Sans+One&family=Poppins:wght@100;300;400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Julius+Sans+One&family=Overpass:wght@100;200;300;400;500&family=Poppins:wght@100;300;400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.SubNavbar {
+  margin: 20px 0;
+}
+
 .Sub-Nav-Links a {
   color: #5D5E60;
   text-decoration: none;

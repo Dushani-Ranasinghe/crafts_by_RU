@@ -1,0 +1,23 @@
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 10px 0;
+}
+
+.row1 {
+  position: relative;
+}
+
+.image1 {
+  top: 86px;
+  left: -45px;
+  margin: 24px;
+}
+
+.image2 {
+  position: absolute;
+  top: -3px;
+  left: 378px;
+}
+/*# sourceMappingURL=Content.css.map */
