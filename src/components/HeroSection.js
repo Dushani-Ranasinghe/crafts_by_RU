@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Carousel} from "react-bootstrap"
 
 //images
-import MainImg from "../Resources/hero-main-img.png"
+import MainImg from "../Resources/1.png"
 import first from "../Resources/2.png"
 import second from "../Resources/3.png"
 import third from "../Resources/4.png"
@@ -26,8 +26,8 @@ function HeroSection() {
       alt="First slide"
       height={500}/>
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h1>CRAFTS THAT SPEAKS<br/> ITS STORY</h1>
+      <h3>Crafts by RU</h3>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -39,7 +39,7 @@ function HeroSection() {
       height={500}
     />
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3>GIFT JARS</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -52,7 +52,7 @@ function HeroSection() {
       height={500}
     />
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+      <h3>GIFT CARDS</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -65,7 +65,7 @@ function HeroSection() {
       height={500}
     />
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+      <h3>EVENT PLANNING</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -78,7 +78,7 @@ function HeroSection() {
       height={500}
     />
     <Carousel.Caption>
-      <h3>fourth slide label</h3>
+      <h3>GIFT BOXES</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -91,7 +91,7 @@ function HeroSection() {
       height={500}
     />
     <Carousel.Caption>
-      <h3>fifth slide label</h3>
+      <h3>EXPLOSION BOXES</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -104,7 +104,7 @@ function HeroSection() {
       height={500}
     />
     <Carousel.Caption>
-      <h3>sixth slide label</h3>
+      <h3>GIFT BASKETS</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
