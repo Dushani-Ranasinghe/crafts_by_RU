@@ -1,3 +1,5 @@
+@import "../Variables/Variables.scss";
+
 .parent {
     position: relative;
     top: 0;
@@ -5,15 +7,31 @@
     margin: 10px 0;
 
   }
-
   .row1{
       position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-style: none;
   }
-.image1 {
-    
-    top: 86px;
-    left: -45px;
+.card {  
+    left: -5px;
     margin: 24px;
+    width: 200px;
+    border: none;
+    background-color: none;
+    h1{
+     font-family: $poppin-font;
+     font-size: 20px;
+     font-weight: 500;
+     margin-top: 10px;
+    }
+    p{
+        font-family: $poppin-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+    }
   }
   .image2 {
     position: absolute;
